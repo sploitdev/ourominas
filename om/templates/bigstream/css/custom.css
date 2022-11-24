@@ -1,0 +1,21 @@
+i.bt_icon_center:before{margin-left: 10px !important;}
+.bt_bottom{padding-bottom: 0;}
+.widget-menu ul,ul.tags{padding: 0;}
+.bt_mp_top_140{margin-top: -140px;}
+div.btk2Pagination ul.pagination a{color: #999;} 
+.k2AccountPage th.k2ProfileHeading{background: #0b7297;}
+.k2AccountPage div.k2AccountPageUpdate{text-align: left !important;}
+th, td {
+  padding: 15px 20px !important;
+}
+th {
+  color: #ffffff;
+  background: #0b7297;
+  font-weight: normal;
+  border: 1px solid #0b7297 !important;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0px;
+}

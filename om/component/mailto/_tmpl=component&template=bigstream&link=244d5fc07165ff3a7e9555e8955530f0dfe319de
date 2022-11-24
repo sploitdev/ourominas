@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr">
+<head>
+  <base href="https://ourominas.com/om/component/mailto/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Câmbio Exchange, Moedas Estrangeiras, Dólar, Euro, Libra, Iene, Peso, Moneygram, Remessa, cartão pré-pago" />
+  <meta name="rights" content="©2016 Todos os direitos reservados para Ourominas (O.M. D.T.V.M. Ltda.)" />
+  <meta name="description" content="Soluções em Ouro e Moedas Estrangeiras. Os melhores preços para câmbio turismo | Dólar, Euro, Libra, Cartão Pré-pago | Compra e Venda de Ouro | Transferência de Dinheiro via MoneyGram." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Ourominas</title>
+  <link href="/om/templates/bigstream/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/om/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/om/templates/bigstream/css/template.css" type="text/css" />
+  <script src="/om/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/om/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/om/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/om/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/om/" type="text/javascript"></script>
+  <script src="/om/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP")}catch(e){}if(r){r.open("GET","/om/index.php?option=com_ajax&format=json",true);r.send(null)}},3600000);
+	Joomla.submitbutton = function(pressbutton)
+	{
+		var form = document.getElementById('mailtoForm');
+
+		// do field validation
+		if (form.mailto.value == '' || form.from.value == '')
+		{
+			alert('Por favor, informe um e-mail válido.');
+			return false;
+		}
+		form.submit();
+	}
+function do_nothing() { return; }
+  </script>
+
+<!--[if lt IE 9]>
+	<script src="/om/media/jui/js/html5.js"></script>
+<![endif]-->
+</head>
+<body class="contentpane modal">
+	<div id="system-message-container">
+	</div>
+
+	
+<div id="mailto-window">
+	<h2>
+		Envie este link a um amigo.	</h2>
+	<div class="mailto-close">
+		<a href="javascript: void window.close()" title="Fechar Janela">
+		 <span>Fechar Janela </span></a>
+	</div>
+
+	<form action="https://ourominas.com/om/index.php" id="mailtoForm" method="post">
+		<div class="formelm">
+			<label for="mailto_field">E-mail para</label>
+			<input type="text" id="mailto_field" name="mailto" class="inputbox" size="25" value=""/>
+		</div>
+		<div class="formelm">
+			<label for="sender_field">
+			De</label>
+			<input type="text" id="sender_field" name="sender" class="inputbox" value="" size="25" />
+		</div>
+		<div class="formelm">
+			<label for="from_field">
+			Seu E-mail</label>
+			<input type="text" id="from_field" name="from" class="inputbox" value="" size="25" />
+		</div>
+		<div class="formelm">
+			<label for="subject_field">
+			Assunto</label>
+			<input type="text" id="subject_field" name="subject" class="inputbox" value="" size="25" />
+		</div>
+		<p>
+			<button class="button" onclick="return Joomla.submitbutton('send');">
+				Enviar			</button>
+			<button class="button" onclick="window.close();return false;">
+				Cancelar			</button>
+		</p>
+		<input type="hidden" name="layout" value="default" />
+		<input type="hidden" name="option" value="com_mailto" />
+		<input type="hidden" name="task" value="send" />
+		<input type="hidden" name="tmpl" value="component" />
+		<input type="hidden" name="link" value="244d5fc07165ff3a7e9555e8955530f0dfe319de" />
+		<input type="hidden" name="68679e25f2695ec28cdafc481bbf2277" value="1" />
+	</form>
+</div>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76f3d61699b8a4e3","version":"2022.11.3","r":1,"token":"021ad119665f4b6ab2957852c14f76d2","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
